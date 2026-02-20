@@ -105,6 +105,30 @@ try {
 }
 ```
 
+## Releasing a New Version
+
+Publishing to pub.dev is automated via GitHub Actions and triggers when a git tag is pushed. The tag version **must match** `pubspec.yaml` exactly — CI enforces this.
+
+```bash
+# 1. Update version in pubspec.yaml (e.g. 1.0.0 → 1.1.0)
+
+# 2. Update CHANGELOG.md — move [Unreleased] items to a new [1.1.0] section,
+#    update the comparison links at the bottom
+
+# 3. Commit
+git add pubspec.yaml CHANGELOG.md
+git commit -m "chore: release v1.1.0"
+
+# 4. Tag — must be "v" + exact pubspec version
+git tag v1.1.0
+
+# 5. Push commit and tag (tag push triggers publish to pub.dev)
+git push origin main
+git push origin v1.1.0
+```
+
+Semver rules: `PATCH` for bug fixes, `MINOR` for new backwards-compatible features, `MAJOR` for breaking changes.
+
 ## License
 
 MIT
