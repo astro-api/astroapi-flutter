@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-02-20
+
+### Changed
+- Expanded `CLAUDE.md` with a detailed layer-by-layer architecture reference and SDK extension guide for AI assistants.
+- Added release process documentation (version bump steps, git tag workflow, semver rules) to `CLAUDE.md` and `README.md`.
+
 ## [1.0.0] - 2026-02-20
 
 ### Added
@@ -32,5 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enum types: `Language`, `HouseSystem`, `ZodiacType`, `Tradition`,
   `PerspectiveType`, `DetailLevel`.
 
-[Unreleased]: https://github.com/astro-api/astroapi-flutter/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/astro-api/astroapi-flutter/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/astro-api/astroapi-flutter/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/astro-api/astroapi-flutter/releases/tag/v1.0.0

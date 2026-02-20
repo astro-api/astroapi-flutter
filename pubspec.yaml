@@ -1,6 +1,6 @@
 name: astroapi
 description: A comprehensive Dart SDK for the Astrology API v3 — horoscopes, natal charts, planetary positions, and more
-version: 1.0.0
+version: 1.0.1
 homepage: https://astrology-api.io
 repository: https://github.com/astro-api/astroapi-flutter
 
