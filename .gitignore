@@ -1,0 +1,21 @@
+# Dart/Flutter
+.dart_tool/
+build/
+.packages
+pubspec.lock
+
+# OpenAPI spec (downloaded locally, not committed)
+openapi.json
+docs-openapi.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
